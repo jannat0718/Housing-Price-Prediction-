@@ -1,2 +1,3 @@
 # Housing-Price-Prediction-
-ML Prediction project based on Linear Regression
+
+Using Linear Regression Model ,built a prediction model and evaluate the model to Predict a house price.
