@@ -2,11 +2,11 @@
 
 **Introduction:**
 
-California's housing market is a complex and dynamic environment that requires continuous monitoring and analysis. In this study, we aim to develop a robust model to predict median house values using various factors such as location, housing characteristics, and demographics. By leveraging the power of machine learning algorithms, we can improve our understanding of the factors influencing house prices and provide useful insights for potential homebuyers, investors, and policymakers.
+California's housing market is a complex and dynamic environment that requires continuous monitoring and analysis. In this study, I aim to develop a robust model to predict median house values using various factors such as location, housing characteristics, and demographics. By leveraging the power of machine learning algorithms, we can improve our understanding of the factors influencing house prices and provide useful insights for potential homebuyers, investors, and policymakers.
 
 **Objective:**
 
-The primary objective of this study is to explore the California housing dataset, preprocess the data, develop a predictive model using linear regression, analyze the results, and optimize the model's performance. Furthermore, we aim to provide recommendations based on our findings.
+The primary objective of this study is to explore the California housing dataset, preprocess the data, develop a predictive model using linear regression, analyze the results, and optimize the model's performance. Furthermore, I aim to provide a few recommendations based on the findings.
 
 **Linear regression and how does it work:**
 
@@ -30,39 +30,47 @@ To make predictions with a linear regression model, we input values for the inde
 
 1. **Load the data:**
 
-    a. Import necessary libraries (e.g., pandas, numpy).
+    a. Imported necessary libraries (e.g., pandas, numpy).
+    
     b. Read the "housing.csv" file using pandas' read_csv() function.
-    c. Use head() function to display the first few rows and understand the dataset's structure and contents.
+    
+    c. Used head() function to display the first few rows and understand the dataset's structure and contents.
     
 2. **Exploratory Data Analysis (EDA):**
 
-    a. Use info() and describe() functions to get a summary of the dataset and identify missing values.
-    b.Handle missing values by either dropping rows/columns with missing data or imputing missing values using mean, median, or mode.
-    c. Encode categorical variables into numerical format using techniques like one-hot encoding or label encoding.
-    d. Standardize the dataset using techniques like MinMax scaling or standard scaling to bring all variables onto a similar scale.
+    a. Used info() and describe() functions to get a summary of the dataset and identify missing values.
+    
+    b. Handled missing values by either dropping rows/columns with missing data or imputing missing values using mean, median, or mode.
+    
+    c. Encoded categorical variables into numerical format using techniques like one-hot encoding or label encoding.
+    
+    d. Standardized the dataset using techniques like MinMax scaling or standard scaling to bring all variables onto a similar scale.
     
 3. **Data visualization:**
 
-    a. Import data visualization libraries (e.g., matplotlib, seaborn).
-    b. Create scatter plots or pair plots to explore the relationships between independent variables and the target variable (median house value).
-    c. Use correlation matrix and heatmaps to identify the strength and direction of relationships between variables.
+    a. Imported data visualization libraries such as matplotlib, seaborn, and more.
+    
+    b. Created scatter plots or pair plots to explore the relationships between independent variables and the target median house value.
+    
+    c. Used correlation matrix and heatmaps to identify the strength and direction of relationships between variables.
     
 4. **Split the dataset:**
 
-    a. Import the train_test_split function from the sklearn library.
-    b. Divide the dataset into an 80% training set and a 20% test set, keeping the target variable separate using the train_test_split() function.
+    a. Imported the train_test_split function from the sklearn library.
+    
+    b. Divided the dataset into an 80% training set and a 20% test set, keeping the target variable separate using the train_test_split() function.
     
 5. **Perform Linear Regression:**
 
-    a. Import the LinearRegression class from the sklearn library.
-    b. Instantiate a LinearRegression object and fit it to the training data using the fit() method.
-    c. Use the predict() method to make predictions on the test data and evaluate the model's performance.
+    a. Imported the LinearRegression class from the sklearn library.
+    b. Instantiated a LinearRegression object and fit it to the training data using the fit() method.
+    c. Used the predict() method to make predictions on the test data and evaluate the model's performance.
     
 6. **Analyze results:**
 
-    a. Assess the model's performance using metrics like R-squared, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
-    b. Use the coef_ and intercept_ attributes to inspect the learned coefficient values and intercept for the linear regression model.
-    c. Interpret the coefficients to understand how each independent variable impacts the target variable.
+    a. Assessed the model's performance using metrics like R-squared, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+    b. Used the coef_ and intercept_ attributes to inspect the learned coefficient values and intercept for the linear regression model.
+    c. Interpreted the coefficients to understand how each independent variable impacts the target variable.
 
 **Results and Analysis:**
 
