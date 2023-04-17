@@ -58,18 +58,38 @@ To make predictions with a linear regression model, we input values for the inde
 
     a. Imported the train_test_split function from the sklearn library.
     
-    b. Divided the dataset into an 80% training set and a 20% test set, keeping the target variable separate using the train_test_split() function.
+    b. Divided the dataset into an 80% training set and a 20% test set, keeping the target variable separate using the train_test_split()
+    function.
     
 5. **Perform Linear Regression:**
 
     a. Imported the LinearRegression class from the sklearn library.
+    
     b. Instantiated a LinearRegression object and fit it to the training data using the fit() method.
+    
     c. Used the predict() method to make predictions on the test data and evaluate the model's performance.
     
 6. **Analyze results:**
 
     a. Assessed the model's performance using metrics like R-squared, Mean Squared Error (MSE), and Root Mean Squared Error (RMSE).
+        i. R-squared: It measures the proportion of variation in the target variable that can be explained by the model. R-squared 
+        ranges from 0 to 1, with values closer to 1 indicating a better fit. However, a very high R-squared could signal overfitting.
+        
+        ii. Mean Squared Error (MSE): This metric calculates the average squared difference between the actual and predicted values.
+        Lower values indicate a better model performance.
+        
+        iii. Root Mean Squared Error (RMSE): It is the square root of the MSE and provides an estimate of the average error made by
+        the model. Smaller RMSE values indicate better model performance.
+ 
     b. Used the coef_ and intercept_ attributes to inspect the learned coefficient values and intercept for the linear regression model.
+    
+        i. Coefficients: The values associated with each independent variable in the model. These values help to understand the relationship
+        between the independent and dependent variables. A positive coefficient indicates a direct relationship (i.e., as the independent
+        variable increases, the target variable also increases), while a negative coefficient indicates an inverse relationship.
+        
+        ii. Intercept: It is the point where the regression line intersects the y-axis when all independent variables are equal to zero.
+        The intercept provides a baseline value for the target variable.
+    
     c. Interpreted the coefficients to understand how each independent variable impacts the target variable.
 
 **Results and Analysis:**
