@@ -83,12 +83,13 @@ To make predictions with a linear regression model, we input values for the inde
  
     b. Used the coef_ and intercept_ attributes to inspect the learned coefficient values and intercept for the linear regression model.
     
-        i. Coefficients: The values associated with each independent variable in the model. These values help to understand the relationship
-        between the independent and dependent variables. A positive coefficient indicates a direct relationship (i.e., as the independent
-        variable increases, the target variable also increases), while a negative coefficient indicates an inverse relationship.
+        i. Coefficients: The values associated with each independent variable in the model. These values help to understand 
+        the relationship between the independent and dependent variables. A positive coefficient indicates a direct relationship
+        (i.e., as the independent variable increases, the target variable also increases), while a negative coefficient indicates
+        an inverse relationship.
         
-        ii. Intercept: It is the point where the regression line intersects the y-axis when all independent variables are equal to zero.
-        The intercept provides a baseline value for the target variable.
+        ii. Intercept: It is the point where the regression line intersects the y-axis when all independent variables are equal
+        to zero. The intercept provides a baseline value for the target variable.
         
     c. Interpreted the coefficients to understand how each independent variable impacts the target variable.
 
