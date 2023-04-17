@@ -89,7 +89,7 @@ To make predictions with a linear regression model, we input values for the inde
         
         ii. Intercept: It is the point where the regression line intersects the y-axis when all independent variables are equal to zero.
         The intercept provides a baseline value for the target variable.
-    
+        
     c. Interpreted the coefficients to understand how each independent variable impacts the target variable.
 
 **Results and Analysis:**
